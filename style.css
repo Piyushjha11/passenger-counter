@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(station.jpg);
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:auto;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    width:200px;
+    /* background-color: hsla(0, 100%, 22%, 0.938); */
+    margin-bottom: 10px;
+    margin-left:43vw;
+    line-height: 5vh;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#save-el{
+    background-color: hsla(0, 100%, 22%, 0.938);
+    margin-top:5vh;
+    font-weight: bolder;
+}
+
+#increment-el{
+    background-color: green;
+    margin-top:5vh;
+    font-weight: bolder;
+}
+
+
+
+p{
+    text-align: center;
+    margin-top: 5vh;
+    font-weight: bolder;
+    font-size: 2rem;
+
+}
+
+#copy{
+    margin-top:30vh;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
